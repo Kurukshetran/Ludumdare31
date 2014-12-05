@@ -1,0 +1,2 @@
+All resources (excluding Scenes) should reside as a child to this folder.
+We use a resource folder as the root so that we can use unity commands to iterate files at runtime.
