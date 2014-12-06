@@ -1,0 +1,3 @@
+﻿using UnityEngine;using System.Collections;public class ControllableCharacterAnimationController : ICharacterAnimationController{    // Called on start    protected override void Start()    {        base.Start();    }    /// <summary>    /// Play the characters idle animation    /// </summary>    public void PlayIdleAnimation()    {
+        m_animator.SetBool("IsWalking", false);    }    /// <summary>    /// Play the characters walk animation    /// </summary>    public void PlayWalkAnimation()    {
+        m_animator.SetBool("IsWalking", true);    }}
