@@ -54,6 +54,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Resources\Scripts\Bullet\IBullet.cs" />
+    <Compile Include="Assets\Resources\Scripts\Bullet\StandardBullet.cs" />
     <Compile Include="Assets\Resources\Scripts\Character\ControllableCharacter.cs" />
     <Compile Include="Assets\Resources\Scripts\Character\ControllableCharacterAnimationController.cs" />
     <Compile Include="Assets\Resources\Scripts\Character\Grace\GraceCharacterController.cs" />

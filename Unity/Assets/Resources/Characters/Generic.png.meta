@@ -3,6 +3,8 @@ guid: d92c516ce3a62e441b06ebc1663dcc16
 TextureImporter:
   fileIDToRecycleName:
     21300000: Generic_Shadow
+    21300002: GraceBullet
+    21300004: OwenBullet
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -47,10 +49,30 @@ TextureImporter:
     - name: Generic_Shadow
       rect:
         serializedVersion: 2
-        x: 0
-        y: 405
-        width: 171
-        height: 107
+        x: 4
+        y: 426
+        width: 143
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraceBullet
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 356
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OwenBullet
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 356
+        width: 36
+        height: 37
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
