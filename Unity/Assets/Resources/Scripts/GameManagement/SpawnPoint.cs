@@ -1,0 +1,1 @@
+﻿using UnityEngine;using System.Collections;public class SpawnPoint : MonoBehaviour {	// Use this for initialization	void Start ()     {        var spriteRenderer = this.GetComponent<SpriteRenderer>();        if (spriteRenderer != null)        {            spriteRenderer.enabled = false;        }	}	}
