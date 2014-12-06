@@ -85,7 +85,9 @@ using System.Collections.Generic;public abstract class ICharacter : MonoBehavi
         var renderers = this.GetComponentsInChildren<SpriteRenderer>();        foreach (var renderer in renderers)
         {
             renderer.sortingOrder = m_initialSortingOrders[renderer] - orderOffset;
-        }	}    // Fixed updates is called once per physics update    protected virtual void FixedUpdate()    {    }    // Called when the player enters a collision    protected virtual void OnCollisionEnter2D(Collision2D collision)    {    }    // Fire a new bullet in a given direction    protected void FireBullet(Vector2 direction)    {
+        }
+
+        m_healthBar.value = this.Health;	}    // Fixed updates is called once per physics update    protected virtual void FixedUpdate()    {    }    // Called when the player enters a collision    protected virtual void OnCollisionEnter2D(Collision2D collision)    {    }    // Fire a new bullet in a given direction    protected void FireBullet(Vector2 direction)    {
         var bullet = m_bullets.FirstOrDefault(x => x.gameObject.activeSelf == false);        if (bullet == null)
         {
             Debug.LogWarning(string.Format("No bullets are avalible for the character {0}.", this.gameObject.name));
@@ -101,8 +103,7 @@ using System.Collections.Generic;public abstract class ICharacter : MonoBehavi
         }    }    public virtual void Damage(float amount)
     {
         this.Health -= amount;
-        m_healthBar.value = this.Health;
-
+        
         if (this.Health <= 0.0f)
         {
             this.gameObject.SetActive(false);
