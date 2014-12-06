@@ -83,6 +83,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 43885634}
   - 61: {fileID: 43885635}
+  - 95: {fileID: 43885636}
   m_Layer: 0
   m_Name: Grace
   m_TagString: Untagged
@@ -118,6 +119,21 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 1.10000002, y: 2.0999999}
   m_Center: {x: .0199999996, y: .150000006}
+--- !u!95 &43885636
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 43885633}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 59b56bb61f688ef4cbf41af96bde54e2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &374246412
 Prefab:
   m_ObjectHideFlags: 0
@@ -408,6 +424,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1049134550}
   - 61: {fileID: 1049134551}
+  - 95: {fileID: 1049134552}
   m_Layer: 0
   m_Name: Owen
   m_TagString: Untagged
@@ -443,6 +460,21 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 1.10000002, y: 2.0999999}
   m_Center: {x: .0199999996, y: .0500000007}
+--- !u!95 &1049134552
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1049134549}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 59b56bb61f688ef4cbf41af96bde54e2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &1223296464
 Prefab:
   m_ObjectHideFlags: 0
