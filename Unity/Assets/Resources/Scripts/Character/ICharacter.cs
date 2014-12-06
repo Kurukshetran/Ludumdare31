@@ -42,7 +42,12 @@ using System.Collections.Generic;public abstract class ICharacter : MonoBehavi
     /// <summary>
     /// The bullet this character uses
     /// </summary>
-    protected List<IBullet> m_bullets = new List<IBullet>();    /// <summary>
+    protected List<IBullet> m_bullets = new List<IBullet>();
+
+    /// <summary>
+    /// The health bar of the character
+    /// </summary>
+    protected UnityEngine.UI.Slider m_healthBar = null;    /// <summary>
     /// 
     /// </summary>
     protected Dictionary<SpriteRenderer, int> m_initialSortingOrders = new Dictionary<SpriteRenderer, int>();	// Use this for initialization    protected virtual void Start()     {        m_body = this.GetComponent<Rigidbody2D>();        if (m_body == null)        {            Debug.LogError(string.Format("The character {0} does not have a rigid body 2d component.", this.name));            this.gameObject.SetActive(false);        }        m_animationController = this.GetComponent<ICharacterAnimationController>();        if (m_animationController == null)        {            Debug.LogError(string.Format("The character {0} does not have an animation controller component.", this.name));            this.gameObject.SetActive(false);        }
@@ -53,6 +58,16 @@ using System.Collections.Generic;public abstract class ICharacter : MonoBehavi
             Debug.LogError(string.Format("The character {0} does not have an audio source component.", this.name));
             this.gameObject.SetActive(false);
         }
+
+        m_healthBar = this.GetComponentInChildren<UnityEngine.UI.Slider>();
+        if (m_healthBar == null)
+        {
+            Debug.LogError(string.Format("The character {0} does not have a health bar slider component.", this.name));
+            this.gameObject.SetActive(false);
+        }
+
+        m_healthBar.maxValue = this.Health;
+        m_healthBar.value = this.Health;
 
         // Create bullets        for (int bulletIndex = 0; bulletIndex < this.MaximumNumberOfBullets; ++bulletIndex)
         {
@@ -86,6 +101,8 @@ using System.Collections.Generic;public abstract class ICharacter : MonoBehavi
         }    }    public virtual void Damage(float amount)
     {
         this.Health -= amount;
+        m_healthBar.value = this.Health;
+
         if (this.Health <= 0.0f)
         {
             this.gameObject.SetActive(false);
