@@ -1600,6 +1600,10 @@ Prefab:
       propertyPath: BulletContainer
       value: 
       objectReference: {fileID: 148581021}
+    - target: {fileID: 100006, guid: d52a5d4ff90ac084083f3b710777933b, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d52a5d4ff90ac084083f3b710777933b, type: 2}
   m_RootGameObject: {fileID: 43885633}
@@ -4390,6 +4394,7 @@ MonoBehaviour:
   - {fileID: 1586540495}
   CharacterContainer: {fileID: 1303170626}
   SkellyBob: {fileID: 11400002, guid: e8f7e0cec0c7c4c4a8237b8d5702087d, type: 2}
+  Trot: {fileID: 11400010, guid: 145181621d4a8f0409ccde35496200c9, type: 2}
 --- !u!1001 &1349021909
 Prefab:
   m_ObjectHideFlags: 0
@@ -4858,6 +4863,10 @@ Prefab:
       propertyPath: BulletContainer
       value: 
       objectReference: {fileID: 148581021}
+    - target: {fileID: 100006, guid: f57975b3e1d62234d981a957ad03d105, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f57975b3e1d62234d981a957ad03d105, type: 2}
   m_RootGameObject: {fileID: 1049134549}
