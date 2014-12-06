@@ -11,13 +11,13 @@ The website is operated and maintained by Mike Kasprzak (PoV). Mike is part of t
 December 2014, 6th - 8th.
 
 ##Entry Type
-Solo compertition.
+Solo competition.
 
 ##Theme
-Unknown.
+Entire Game on One Screen
 
 ##Game Information
-Unknown.
+Approaching Grace is a 2d dungeon platformer.
 
 ##Required Tools
 To create this project the following tools were used:
