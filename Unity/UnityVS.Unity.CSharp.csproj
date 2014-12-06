@@ -58,9 +58,11 @@
     <Compile Include="Assets\Resources\Scripts\Bullet\StandardBullet.cs" />
     <Compile Include="Assets\Resources\Scripts\Character\ControllableCharacter.cs" />
     <Compile Include="Assets\Resources\Scripts\Character\ControllableCharacterAnimationController.cs" />
+    <Compile Include="Assets\Resources\Scripts\Character\DamageTrigger.cs" />
     <Compile Include="Assets\Resources\Scripts\Character\Grace\GraceCharacterController.cs" />
     <Compile Include="Assets\Resources\Scripts\Character\ICharacter.cs" />
     <Compile Include="Assets\Resources\Scripts\Character\ICharacterAnimationController.cs" />
+    <Compile Include="Assets\Resources\Scripts\Character\MeleeCharacter\MeleeCharacter.cs" />
     <Compile Include="Assets\Resources\Scripts\Character\Owen\OwenCharacterController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
