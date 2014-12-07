@@ -64,6 +64,8 @@
     <Compile Include="Assets\Resources\Scripts\Character\ICharacterAnimationController.cs" />
     <Compile Include="Assets\Resources\Scripts\Character\MeleeCharacter\MeleeCharacter.cs" />
     <Compile Include="Assets\Resources\Scripts\Character\Owen\OwenCharacterController.cs" />
+    <Compile Include="Assets\Resources\Scripts\Decals\BloodDecalManager.cs" />
+    <Compile Include="Assets\Resources\Scripts\Decals\FadeoutDecal.cs" />
     <Compile Include="Assets\Resources\Scripts\GameManagement\GameManager.cs" />
     <Compile Include="Assets\Resources\Scripts\GameManagement\SpawnPoint.cs" />
     <Compile Include="Assets\Resources\Scripts\Menu\ButtonToScene.cs" />

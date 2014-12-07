@@ -7,6 +7,9 @@ TextureImporter:
     21300004: OwenBullet
     21300006: SpawnPoint
     21300008: MenuIcon
+    21300010: Blood_Large
+    21300012: Blood_001
+    21300014: Blood_002
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -95,6 +98,36 @@ TextureImporter:
         y: 242
         width: 259
         height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Large
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 168
+        width: 108
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 180
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_002
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 165
+        width: 60
+        height: 68
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
