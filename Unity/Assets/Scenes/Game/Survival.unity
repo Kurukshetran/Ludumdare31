@@ -1688,6 +1688,7 @@ MonoBehaviour:
   - {fileID: 100000, guid: 3d302bd88015ae5478131e30d95f2faf, type: 2}
   - {fileID: 100000, guid: 878f625d99cfc6943a427ccd85c104dd, type: 2}
   DeathMarker: {fileID: 100000, guid: 45d4bb8bd154ed24193f64a335ea58d3, type: 2}
+  SatanMarker: {fileID: 100000, guid: 8dff36a324ba77243863ae39d2b447b0, type: 2}
 --- !u!1 &456071145
 GameObject:
   m_ObjectHideFlags: 0
@@ -3739,7 +3740,7 @@ Transform:
   m_PrefabInternal: {fileID: 1571217477}
   m_GameObject: {fileID: 1137015237}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.75, y: -1.99000001, z: 0}
+  m_LocalPosition: {x: -10, y: -1.99000001, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1267273517}
@@ -4644,6 +4645,7 @@ MonoBehaviour:
   SkellyBob: {fileID: 11400002, guid: e8f7e0cec0c7c4c4a8237b8d5702087d, type: 2}
   Trot: {fileID: 11400010, guid: 145181621d4a8f0409ccde35496200c9, type: 2}
   Archy: {fileID: 11400014, guid: d0c2428742f38254c8e4a8b137c289c8, type: 2}
+  Satan: {fileID: 11400008, guid: 9bdbff3613da86d4aa16bf967bf51fcd, type: 2}
   RoundStartAudio: {fileID: 8300000, guid: 649a726bbc385c8488ba73f2ea2ea3dd, type: 3}
   AmbientAudio: {fileID: 8300000, guid: 5ce62a057f48e0041a0d48b3e7aa6f53, type: 3}
 --- !u!82 &1338141167
@@ -5268,7 +5270,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 354349949de32d7429b575e48ca6c2cf, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -9.75
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 354349949de32d7429b575e48ca6c2cf, type: 2}
       propertyPath: m_LocalPosition.y

@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: 2e98ecd0192e0cc4dbdce9310a52b454
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Satan-Rig_0
+    21300002: Satan-Rig_1
+    21300004: Satan-Rig_2
+    21300006: Satan-Rig_3
+    21300008: Satan-Rig_4
+    21300010: Satan-Rig_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Satan-Rig_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 820
+        width: 213
+        height: 193
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Satan-Rig_1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 412
+        width: 518
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Satan-Rig_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 472
+        width: 76
+        height: 326
+      alignment: 9
+      pivot: {x: .454496145, y: .31258744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Satan-Rig_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 579
+        width: 121
+        height: 215
+      alignment: 9
+      pivot: {x: .480945945, y: .896765113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Satan-Rig_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 344
+        width: 52
+        height: 104
+      alignment: 9
+      pivot: {x: .228738204, y: .90709424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Satan-Rig_5
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 359
+        width: 152
+        height: 186
+      alignment: 9
+      pivot: {x: .105633482, y: .0661642402}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -176,6 +176,7 @@
     <Compile Include="Assets\Resources\Scripts\Controllers\ControllerManager.cs" />
     <Compile Include="Assets\Resources\Scripts\Controllers\KeyboardMouseProfile.cs" />
     <Compile Include="Assets\Resources\Scripts\Decals\BloodDecalManager.cs" />
+    <Compile Include="Assets\Resources\Scripts\Decals\DamageOnEnter.cs" />
     <Compile Include="Assets\Resources\Scripts\Decals\FadeoutDecal.cs" />
     <Compile Include="Assets\Resources\Scripts\External\KongregateAPI.cs" />
     <Compile Include="Assets\Resources\Scripts\GameManagement\GameManager.cs" />
