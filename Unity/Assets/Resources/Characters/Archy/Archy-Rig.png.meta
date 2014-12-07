@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: c3b1feb8f31d09741b30285225846a3e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Archy-Rig_0
+    21300002: Archy-Rig_1
+    21300004: Archy-Rig_2
+    21300006: Archy-Rig_3
+    21300008: Archy-Rig_4
+    21300010: Archy-Rig_5
+    21300012: Archy-Rig_6
+    21300014: Archy-Rig_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Archy-Rig_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 816
+        width: 256
+        height: 200
+      alignment: 9
+      pivot: {x: .502950549, y: .186535954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Archy-Rig_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 572
+        width: 41
+        height: 212
+      alignment: 9
+      pivot: {x: .536845684, y: .421616167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Archy-Rig_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 724
+        width: 40
+        height: 64
+      alignment: 9
+      pivot: {x: .518883526, y: .830459595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Archy-Rig_3
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 732
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Archy-Rig_4
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 572
+        width: 129
+        height: 120
+      alignment: 9
+      pivot: {x: .482434064, y: .877668262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Archy-Rig_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 503
+        width: 103
+        height: 46
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Archy-Rig_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 511
+        width: 64
+        height: 30
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Archy-Rig_7
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 492
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
