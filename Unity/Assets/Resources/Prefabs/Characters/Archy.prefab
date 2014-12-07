@@ -572,8 +572,8 @@ MonoBehaviour:
   MaximumNumberOfBullets: 20
   BulletFireRate: 1
   BulletContainer: {fileID: 0}
-  AttackAudio: {fileID: 0}
-  HurtAudio: {fileID: 0}
+  AttackAudio: {fileID: 8300000, guid: 12c9f3bcc199e274b990000432b79ff4, type: 3}
+  HurtAudio: {fileID: 8300000, guid: ab3820c771a1e644b9556d7790dbb740, type: 3}
   AgroRange: 20
   AttackRange: 8
   DamagePerHit: 1
