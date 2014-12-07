@@ -1,0 +1,1 @@
+﻿using UnityEngine;using System.Collections;public abstract class IPickup : MonoBehaviour{	// Use this for initialization    protected virtual void Start()     {		}		// Update is called once per frame	protected virtual void Update ()     {		}    protected virtual void OnTriggerEnter2D(Collider2D other)    {        GameObject.Destroy(this.gameObject);    }}

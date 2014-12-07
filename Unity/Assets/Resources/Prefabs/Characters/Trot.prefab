@@ -583,7 +583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6020ebd51399c2a4fb8e43317fce4160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 15
+  MaxHealth: 12
   Speed: .0299999993
   BulletTemplate: {fileID: 0}
   MaximumNumberOfBullets: 0

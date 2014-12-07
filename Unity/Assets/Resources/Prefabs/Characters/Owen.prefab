@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b58b566c5b119e545aade1f80c57f5ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 100
+  MaxHealth: 100
   Speed: 1
   BulletTemplate: {fileID: 11400000, guid: 10eb3a844ff5a4b43afd763e7d77eeac, type: 2}
   MaximumNumberOfBullets: 20
