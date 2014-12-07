@@ -183,6 +183,7 @@
     <Compile Include="Assets\Resources\Scripts\GameManagement\SpawnPoint.cs" />
     <Compile Include="Assets\Resources\Scripts\Menu\ButtonToScene.cs" />
     <Compile Include="Assets\Resources\Scripts\Menu\MainMenu.cs" />
+    <Compile Include="Assets\Resources\Scripts\Menu\MuteButton.cs" />
     <Compile Include="Assets\Resources\Scripts\Pickups\HealthPickup.cs" />
     <Compile Include="Assets\Resources\Scripts\Pickups\IPickup.cs" />
     <Compile Include="Assets\Resources\Scripts\Pickups\PickupManager.cs" />

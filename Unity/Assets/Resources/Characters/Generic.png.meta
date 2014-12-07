@@ -13,6 +13,7 @@ TextureImporter:
     21300016: DeathMarker
     21300018: HealthKit
     21300020: Cross
+    21300022: Speaker
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -161,6 +162,16 @@ TextureImporter:
         y: 55
         width: 86
         height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Speaker
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 429
+        width: 88
+        height: 77
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
