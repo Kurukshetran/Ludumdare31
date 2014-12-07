@@ -405,6 +405,7 @@ MonoBehaviour:
   BulletContainer: {fileID: 0}
   AttackAudio: {fileID: 8300000, guid: 29ea96944e3765c468812e41ae916acf, type: 3}
   HurtAudio: {fileID: 8300000, guid: 1800ce16f11ff52428e391ab660968c4, type: 3}
+  Identity: 0
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
