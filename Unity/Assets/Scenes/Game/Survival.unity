@@ -283,7 +283,7 @@ Transform:
   m_PrefabInternal: {fileID: 464715794}
   m_GameObject: {fileID: 43885633}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 46.1459427, y: -6.99192238, z: 0}
+  m_LocalPosition: {x: 50, y: -6.99192238, z: 0}
   m_LocalScale: {x: 27.125, y: 27.125, z: 27.125}
   m_Children:
   - {fileID: 1725450589}
@@ -679,7 +679,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Starting Round X...
+  m_Text: 
 --- !u!222 &274101678
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1566,7 +1566,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400006, guid: d52a5d4ff90ac084083f3b710777933b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 46.1459427
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: d52a5d4ff90ac084083f3b710777933b, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2129,7 +2129,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Starting Round X...
+  m_Text: 
 --- !u!222 &708348360
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3111,7 +3111,7 @@ Transform:
   m_PrefabInternal: {fileID: 1536419088}
   m_GameObject: {fileID: 1049134549}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -41.5012169, y: -6.23863411, z: 0}
+  m_LocalPosition: {x: -50, y: -6.23863411, z: 0}
   m_LocalScale: {x: 27.125, y: 27.125, z: 27.125}
   m_Children:
   - {fileID: 1411380590}
@@ -4829,7 +4829,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400006, guid: f57975b3e1d62234d981a957ad03d105, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -41.5012169
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: f57975b3e1d62234d981a957ad03d105, type: 2}
       propertyPath: m_LocalPosition.y

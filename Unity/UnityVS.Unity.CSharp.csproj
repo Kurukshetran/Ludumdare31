@@ -66,6 +66,8 @@
     <Compile Include="Assets\Resources\Scripts\Character\Owen\OwenCharacterController.cs" />
     <Compile Include="Assets\Resources\Scripts\GameManagement\GameManager.cs" />
     <Compile Include="Assets\Resources\Scripts\GameManagement\SpawnPoint.cs" />
+    <Compile Include="Assets\Resources\Scripts\Menu\ButtonToScene.cs" />
+    <Compile Include="Assets\Resources\Scripts\Menu\MainMenu.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
