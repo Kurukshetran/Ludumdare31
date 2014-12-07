@@ -67,6 +67,7 @@
     <Compile Include="Assets\Resources\Scripts\Character\Wizard\RangedWizard.cs" />
     <Compile Include="Assets\Resources\Scripts\Decals\BloodDecalManager.cs" />
     <Compile Include="Assets\Resources\Scripts\Decals\FadeoutDecal.cs" />
+    <Compile Include="Assets\Resources\Scripts\External\KongregateAPI.cs" />
     <Compile Include="Assets\Resources\Scripts\GameManagement\GameManager.cs" />
     <Compile Include="Assets\Resources\Scripts\GameManagement\SpawnPoint.cs" />
     <Compile Include="Assets\Resources\Scripts\Menu\ButtonToScene.cs" />
