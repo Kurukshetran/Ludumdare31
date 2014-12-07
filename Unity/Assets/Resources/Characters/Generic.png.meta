@@ -10,6 +10,7 @@ TextureImporter:
     21300010: Blood_Large
     21300012: Blood_001
     21300014: Blood_002
+    21300016: DeathMarker
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -130,6 +131,16 @@ TextureImporter:
         height: 68
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DeathMarker
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 341
+        width: 116
+        height: 163
+      alignment: 9
+      pivot: {x: .567809701, y: .0703335851}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

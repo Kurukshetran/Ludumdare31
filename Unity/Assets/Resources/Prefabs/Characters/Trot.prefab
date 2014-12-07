@@ -223,6 +223,7 @@ GameObject:
   - 114: {fileID: 11400010}
   - 114: {fileID: 11400008}
   - 82: {fileID: 8200000}
+  - 114: {fileID: 11400012}
   m_Layer: 10
   m_Name: Trot
   m_TagString: Untagged
@@ -593,6 +594,17 @@ MonoBehaviour:
   AgroRange: 12
   AttackRange: 2
   DamagePerHit: 2
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e8c8d807527744287982dc5df16054, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

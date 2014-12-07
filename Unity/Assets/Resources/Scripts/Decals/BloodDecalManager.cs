@@ -21,6 +21,11 @@ public class BloodDecalManager : MonoBehaviour
     /// </summary>
     public GameObject[] BloodDecals = null;
 
+    /// <summary>
+    /// The icon to use to mark a player grave
+    /// </summary>
+    public GameObject DeathMarker = null;
+
 	// Use this for initialization
 	void Awake () 
     {
@@ -42,8 +47,10 @@ public class BloodDecalManager : MonoBehaviour
         newDecal.transform.localEulerAngles = new Vector3(0.0f, 0.0f, Random.Range(0.0f, 360.0f));
     }
 
-    public void AddDeathDecal()
+    public void AddDeathDecal(Vector3 position)
     {
-
+        var newDecal = (GameObject)GameObject.Instantiate(this.DeathMarker);
+        newDecal.transform.parent = this.transform;
+        newDecal.transform.position = position;
     }
 }
