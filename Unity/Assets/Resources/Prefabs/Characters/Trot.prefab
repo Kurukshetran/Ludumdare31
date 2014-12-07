@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Axe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400002}
   - 212: {fileID: 21200002}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightEar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400004}
   - 212: {fileID: 21200004}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftEar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400006}
   - 212: {fileID: 21200006}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ GameObject:
   - 224: {fileID: 22400004}
   - 222: {fileID: 22200000}
   - 114: {fileID: 11400002}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 22400002}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - 224: {fileID: 22400000}
   - 222: {fileID: 22200002}
   - 114: {fileID: 11400004}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - 224: {fileID: 22400006}
   - 114: {fileID: 11400006}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - 4: {fileID: 400008}
   - 61: {fileID: 6100000}
   - 114: {fileID: 11400000}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DamageTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -585,6 +585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 12
   Speed: .0299999993
+  BulletSpawnTransform: {fileID: 0}
   BulletTemplate: {fileID: 0}
   MaximumNumberOfBullets: 0
   BulletFireRate: 1
