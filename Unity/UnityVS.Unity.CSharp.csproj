@@ -185,6 +185,7 @@
     <Compile Include="Assets\Resources\Scripts\Pickups\HealthPickup.cs" />
     <Compile Include="Assets\Resources\Scripts\Pickups\IPickup.cs" />
     <Compile Include="Assets\Resources\Scripts\Pickups\PickupManager.cs" />
+    <Compile Include="Assets\Resources\Scripts\Pickups\ResurrectionPickup.cs" />
     <Compile Include="Assets\Resources\Scripts\RenderOrderSorter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />

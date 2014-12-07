@@ -5343,6 +5343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HealthKit: {fileID: 100002, guid: 61391d0917aa13349a66d0e0d7e92617, type: 2}
+  RessurectionKit: {fileID: 100002, guid: 8749760ad87124b44954b242d0d6a08b, type: 2}
 --- !u!1 &1586540494
 GameObject:
   m_ObjectHideFlags: 0
@@ -6090,6 +6091,10 @@ Prefab:
     - target: {fileID: 11400000, guid: f57975b3e1d62234d981a957ad03d105, type: 2}
       propertyPath: FireRate
       value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: f57975b3e1d62234d981a957ad03d105, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f57975b3e1d62234d981a957ad03d105, type: 2}
